@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+if [ -f /autograder/submission/submitted.py ]; then
+    cp /autograder/submission/submitted.py /autograder/source/
+fi
+if [ -f /autograder/submission/extra.py ]; then
+    cp /autograder/submission/extra.py /autograder/source/extra.py
+fi
+
+cd /autograder/source
+
+python3 grade.py -j > /autograder/results/results.json
+
+rm submitted.py
