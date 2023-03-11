@@ -6,7 +6,7 @@ Created by Qinren Zhou (netid: qinrenz2) on 1/29/2023 for ***ECE448/CS440 Artifi
 This repo contains the following files for students enrolled in ECE448/CS440 Artificial Intelligence at UIUC, Spring
 2023:
 - PyTorch Tutorial
-- Machine Problem (mp)
+- Machine Problem (***MP 4 Neural Nets*** in Spring 2023 semester)
 
 ### PyTorch Tutorial
 Disclaimer: A large portion of the contents are copied from the [PyTorch Tutorial](https://pytorch.org/tutorials/) and
